@@ -37,7 +37,7 @@ function Home() {
   const [moviesData, setMoviesData] = useState([]);
 
   useEffect(() => {
-    fetch('https://mymoviz-backend-seven-weld.vercel.app/movies')
+    fetch('https://mymoviz-backend-seven-weld.vercel.app')
       .then(response => {
        return response.json();
       })
